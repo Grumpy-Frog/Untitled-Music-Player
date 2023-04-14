@@ -1,0 +1,274 @@
+#border{
+       -fx-background-color: linear-gradient(to top,#000000,#000000,#000000,#000000,#3e3b39);
+
+}
+#anchor {
+    -fx-background-color:linear-gradient(to top,#484848,#6d6a6a);
+}
+#hbox1{
+
+-fx-background-color: #201111;
+}
+#songName{
+-fx-text-fill:white;
+}
+#artistName{
+-fx-text-fill:white;
+}
+#currentTime{
+-fx-text-fill:white;
+}
+#totalTime{
+-fx-text-fill:white;
+}
+
+#importMusic
+{
+  -fx-background-color: linear-gradient(to top, #220000, #552222);
+  /*-fx-text-fill: white;*/
+
+}
+#streamMusic
+{
+  -fx-text-fill:white;
+}
+#floatingModeButton
+{
+  -fx-text-fill:white;
+}
+
+#speedcheck{
+   -fx-background-color: linear-gradient(to top, #220000, #552222);
+   -fx-text-fill:white;
+}
+.button {
+    -fx-background-color: linear-gradient(to top, #220000, #552222);
+    -fx-background-radius: 0em;
+}
+
+.button:hover {
+    -fx-background-color: #7f120f;
+}
+
+/* this doesn't work with normal buttons, we were supposed to use the ToggleButton class instead*/
+.button:selected {
+    -fx-background-color: #7f120f;
+}
+.button:pressed {
+    /*-fx-background-color: #8f1410;*/
+    -fx-background-color: #9b152f;
+}
+
+.button:focused {
+    /*-fx-background-color: #ba4541;*/
+    /*-fx-border-color: #9b152f;*/
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+
+.menu-bar
+{
+
+   -fx-text-fill:white;
+}
+
+.combo-box {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+
+
+
+
+.root {
+    -fx-custom-color : #6e1303;
+}
+
+/* Styling the slider track */
+.jfx-slider>.track {
+    -fx-pref-height: 5;
+}
+
+/* Styling the slider thumb */
+.jfx-slider>.thumb {
+    -fx-background-color: -fx-custom-color;
+}
+
+/* Styling the filled track */
+.jfx-slider>.colored-track {
+    -fx-background-color: linear-gradient(to right, #6e1303, #6e1303);
+}
+
+/* Styling the animated thumb */
+.jfx-slider>.animated-thumb {
+    -fx-background-color: -fx-custom-color;
+}
+
+/*.slider .track {*/
+/*      -fx-background-color: linear-gradient(to right, #ff0000, #ffffff);*/
+/*          -fx-shadow-highlight-color:*/
+/*          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),*/
+/*          linear-gradient(to bottom,*/
+/*            derive(-fx-control-inner-background, -9%),*/
+/*            derive(-fx-control-inner-background, 0%),*/
+/*            derive(-fx-control-inner-background, -5%),*/
+/*            derive(-fx-control-inner-background, -12%)*/
+/*          );*/
+/*    -fx-background-insets: 0 0 -1 0, 0, 1;*/
+/*    -fx-background-radius: 0.25em, 0.25em, 0.166667em; !* 3 3 2 *!*/
+/*    -fx-padding: 0.25em; !* 3 *!*/
+/*}*/
+
+/*
+
+.slider .track {
+    -progress: 0.2;
+    -fx-background-color: linear-gradient(to right, #ff0000 .2, #ffffff .2);
+}
+ */
+
+
+.chart-plot-background {
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+    /*-fx-border-insets: -2px;*/
+}
+
+
+.axis:top {
+    -fx-border-color: transparent;
+}
+
+.axis:right {
+    -fx-border-color: transparent;
+}
+
+.axis:bottom {
+    -fx-border-color: transparent;
+}
+
+.axis:left {
+    -fx-border-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.titled-pane > *.content
+{
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent
+}
+
+.axis {
+    -fx-border-color: transparent;
+}
+
+
+
+/*#tabPane {*/
+/*    -fx-tab-min-height: 5em;*/
+/*    -fx-tab-max-height: 5em;*/
+
+/*    -fx-tab-min-width: 0.5em;*/
+/*    -fx-tab-max-width: 0.5em;*/
+/*    -fx-padding: 0 -1 -1 0*/
+
+/*}*/
+
+/*.tab .tab-label {*/
+
+/*    !*-fx-background-color: linear-gradient(to top, #220000, #552222);*!*/
+/*    -fx-text-fill: white;*/
+
+/*}*/
+
+.tab {
+    -fx-background-color: linear-gradient(to top, #220000, #552222);
+    -fx-focus-color: transparent;
+    -fx-text-fill: #ebeaf0;
+}
+
+
+.tab:hover {
+    -fx-background-color: #6e1303;
+
+}
+
+.tab:selected {
+    -fx-background-color: #6e1303;
+}
+
+.tab-label {
+    -fx-font-size: 16px;
+    -fx-font-style: oblique;
+    -fx-text-fill: white;
+}
+
+.tab-pane *.tab-header-background {
+
+    -fx-background-color: transparent;
+}
+
+/*ScrollPane*/
+
+/**/
+.scroll-bar:horizontal {
+    visibility: hidden;
+}
+
+.increment-button,
+.decrement-button {
+    visibility: hidden;
+}
+
+/**/
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical:hover .thumb,
+.scroll-bar:horizontal:hover .thumb {
+    -fx-background-color: #601f13;
+}
+
+.scroll-bar:vertical:pressed .thumb,
+.scroll-bar:horizontal:pressed .thumb {
+    -fx-background-color: #8f1410;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: transparent;
+}
+

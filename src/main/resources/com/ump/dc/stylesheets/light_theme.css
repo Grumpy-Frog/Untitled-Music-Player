@@ -1,0 +1,210 @@
+#anchor {
+    -fx-background-color:linear-gradient(to top,#ffffff,#e86464,#e86464);
+}
+#current
+{
+-fx-text-fill:black;
+}
+#total
+{
+-fx-text-fill:black;
+}
+#streamMusic
+{
+  -fx-text-fill:black;
+}
+#floatingModeButton
+{
+  -fx-text-fill:black;
+}
+#importMusic
+{
+  -fx-background-color: #e86464;
+  -fx-text-fill:black;
+}
+
+#speedBox{
+   -fx-background-color: #e86464;
+   -fx-text-fill:black;
+}
+.button {
+    -fx-background-color: #e86464;
+    -fx-background-radius: 0em;
+}
+
+
+
+.button:hover {
+    -fx-background-color: #c2221d;
+}
+
+.button:pressed {
+    -fx-background-color: #db201a;
+}
+
+.button:focused {
+    -fx-background-color: #cc6966;
+    -fx-border-color: #9b152f;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+
+
+
+
+.jfx-combo-box .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+
+}
+
+.jfx-combo-box {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ebeaf0;
+}
+
+
+.jfx-combo-box:hover {
+    -fx-background-color: #c42408;
+}
+
+
+/*.slider .track {*/
+/*      -fx-background-color: linear-gradient(to right, #ff0000, #ffffff);*/
+/*          -fx-shadow-highlight-color:*/
+/*          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),*/
+/*          linear-gradient(to bottom,*/
+/*            derive(-fx-control-inner-background, -9%),*/
+/*            derive(-fx-control-inner-background, 0%),*/
+/*            derive(-fx-control-inner-background, -5%),*/
+/*            derive(-fx-control-inner-background, -12%)*/
+/*          );*/
+/*    -fx-background-insets: 0 0 -1 0, 0, 1;*/
+/*    -fx-background-radius: 0.25em, 0.25em, 0.166667em; !* 3 3 2 *!*/
+/*    -fx-padding: 0.25em; !* 3 *!*/
+/*}*/
+
+.slider .track {
+    -progress: 0.2;
+    -fx-background-color: transparent;
+}
+
+
+#tabPane {
+    -fx-tab-min-height: 5em;
+    -fx-tab-max-height: 5em;
+
+    -fx-tab-min-width: 0.5em;
+    -fx-tab-max-width: 0.5em;
+    -fx-padding: 0 -1 -1 0
+
+}
+
+.tab .tab-label {
+
+    -fx-background-color: #e69393;
+    -fx-text-fill: black;
+
+}
+
+.tab {
+    -fx-background-color: #e69393;
+
+    -fx-text-fill: #ebeaf0;
+}
+
+
+.tab:hover {
+    -fx-background-color: #d96652;
+
+}
+
+.tab:selected {
+    -fx-background: #f7827e;
+}
+
+.tab-pane *.tab-header-background {
+
+    -fx-background-color: transparent;
+
+}
+
+/*ScrollPane*/
+
+/**/
+.scroll-bar:horizontal {
+    visibility: hidden;
+}
+
+.increment-button,
+.decrement-button {
+    visibility: hidden;
+}
+
+/**/
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical:hover .thumb,
+.scroll-bar:horizontal:hover .thumb {
+    -fx-background-color: #601f13;
+}
+
+.scroll-bar:vertical:pressed .thumb,
+.scroll-bar:horizontal:pressed .thumb {
+    -fx-background-color: #8f1410;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: transparent;
+}
+
+
+
+
+.root {
+    -fx-custom-color : #6e1303;
+}
+
+/* Styling the slider track */
+.jfx-slider>.track {
+    -fx-pref-height: 5;
+}
+
+/* Styling the slider thumb */
+.jfx-slider>.thumb {
+    -fx-background-color: -fx-custom-color;
+}
+
+/* Styling the filled track */
+.jfx-slider>.colored-track {
+    -fx-background-color: linear-gradient(to right, #6e1303, #6e1303);
+}
+
+/* Styling the animated thumb */
+.jfx-slider>.animated-thumb {
+    -fx-background-color: -fx-custom-color;
+}
