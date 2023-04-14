@@ -1,4 +1,9 @@
 # Untitled-Music-Player
+
+<h3>
+Music Player includes all necessary features of a music player along with some special features such as Frequency Spectrum Visualizer, Play Music using URL, Theme change using CSS file. You can import a music or directory which will be stored in the database, change playing speed, sort songs using their meta-data such as Artists, Album Name, Genres.
+</h3>
+
 <img src="/Screen Shots/1.png" alt="Alt text" title="Optional title">
 
 ## Frequency Spectrum Visualization
